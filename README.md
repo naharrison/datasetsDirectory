@@ -1,10 +1,11 @@
 # datasetsDirectory
 php/javascript/css files for an online directory of CLAS12 datasets
 
-##Info
+## Info
 - In index.php, set $dir (around line 53) to point to the directory which contains the datasets. 
 - The $dir directory should contain subdirectories (the datasets) which contain all the relevant files for that dataset (e.g. Lund files, configuration files, simulated/reconstructed files, etc.)
 - The subdirectores must contain a file named "info.xml" that contains the metadata in XML format, e.g.:
+- Tip: Use MAMP to run php file (useful tutorial: https://www.youtube.com/watch?v=RwQW0Qy85jY)
 
 ```XML
 <metadata>
